@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存文件" />
+
+    <Button
+        android:id="@+id/btn_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="阅读文件" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除文件" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打码平台登陆" />
+
+    <Button
+        android:id="@+id/btn_phone_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取打码手机号" />
+
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="集合" />
+
+    <Button
+        android:id="@+id/btn_array"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数组" />
+
+    <Button
+        android:id="@+id/btn_json_array"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON数组" />
+
+    <TextView
+        android:id="@+id/tv_fruits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="水果"
+        android:textSize="20sp" />
+
+</LinearLayout>
