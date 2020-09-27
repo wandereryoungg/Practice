@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".encrypt.EncryptActivity"></activity>
+        <activity android:name=".break_return_continue.TestActivity"></activity>
+        <activity android:name=".classloaderUtil.ClassloaderActivity" />
+        <activity android:name=".encrypt.EncryptActivity" />
         <activity android:name=".collection.CollectionActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.young.practice.break_return_continue.TestActivity;
+import com.young.practice.classloaderUtil.ClassloaderActivity;
 import com.young.practice.collection.CollectionActivity;
 import com.young.practice.encrypt.EncryptActivity;
 
@@ -99,6 +101,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_list, menu);
+
         return true;
     }
 
@@ -112,6 +115,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.activity_encrypt:
                 startActivity(new Intent(this, EncryptActivity.class));
+                break;
+            case R.id.activity_classloader:
+                startActivity(new Intent(this, ClassloaderActivity.class));
+                break;
+            case R.id.break_return_contine:
+                startActivity(new Intent(this, TestActivity.class));
                 break;
         }
         return true;

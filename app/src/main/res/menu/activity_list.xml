@@ -12,5 +12,15 @@
         android:title="encrypt"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/activity_classloader"
+        android:title="classloader"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/break_return_contine"
+        android:title="break_return_contine"
+        app:showAsAction="never" />
+
 
 </menu>

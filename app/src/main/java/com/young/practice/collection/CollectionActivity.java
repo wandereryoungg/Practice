@@ -1,13 +1,12 @@
 package com.young.practice.collection;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.young.practice.R;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -24,6 +23,7 @@ public class CollectionActivity extends AppCompatActivity {
 
         List<String> arrayList = new ArrayList<>();
         arrayList.add("hello");
+        int size = arrayList.size();
 
         List<String> linkedList = new LinkedList<>();
         linkedList.add("hello");
